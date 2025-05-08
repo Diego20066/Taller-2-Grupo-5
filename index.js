@@ -12,15 +12,15 @@ function planGimmasio(){
     switch  (plan) {
         case "basico" :
             planBasico = basico * 4
-            alert("El plan elegido es basico: $" + basico + "\nUsted asistira: " + dias + " dias" + "\nEL costo mensual estimado es de: " + planBasico)
+            alert("El plan elegido es basico: $" + basico + "Usted asistira: " + dias + " dias" + "EL costo mensual estimado es de: " + planBasico)
             break;
         case "estandar":
             planEstandar = estandar * 4
-            alert("El plan elegido es estandar: $" + estandar + "\nUsted asistira: " + dias + " dias" + "\nEL costo mensual estimado es de: " + planEstandar)
+            alert("El plan elegido es estandar: $" + estandar + "Usted asistira: " + dias + " dias" + "EL costo mensual estimado es de: " + planEstandar)
             break;
         case "premium" :
             planPreimun = premium * 4
-            alert("El plan elegido es premium: $" + premium + "\nUsted asistira: " + dias + " dias" + "\nEL costo mensual estimado es de: " + planPreimun)
+            alert("El plan elegido es premium: $" + premium + "Usted asistira: " + dias + " dias" + "EL costo mensual estimado es de: " + planPreimun)
             break;
         default:
         alert ("Opcion no valida")
